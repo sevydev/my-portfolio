@@ -1,0 +1,56 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+.fakeimg {
+   height: 200px;
+   background: #aaa;
+   border-radius: 5px 5px 5px 5px;
+   box-shadow: 10px 10px 15px rgba(0,0,0,.3);
+
+ }
+#no-bullet {
+list-style-type: none;
+}
+
+.jumbotron {
+ 	
+ 	background-image: url("background.jpg");
+ 	background-size: cover;
+ 	color: black;
+
+ }
+ .jumbutron h1{
+ 	position: relative;
+ 	margin-top: 100px;
+ }
+ .photo {
+ 	background-image: url("coffeecup.jpg");
+ 	background-size: cover;
+ }
+
+ h5{
+ 	display: flex;
+ 	justify-content: center;
+ 	font-size: 15px;
+ }
+ .codephoto {
+ 	background-image: url("codingoncomputer.jpg");
+ 	background-size: cover;
+ }
+ #certificate a{
+ 	color: black;
+ }
+
+ hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+.headline{
+	display: flex;
+ 	justify-content: center;
+	color: #F05F44;
+}
+.light{
+  color: #898989;
+}
